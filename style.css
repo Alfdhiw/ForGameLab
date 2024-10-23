@@ -155,6 +155,7 @@ body {
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
+    margin-bottom: 10px;
   }
 
   .post-options button:hover {
@@ -373,7 +374,7 @@ footer {
     }
   }
 
-  @media screen and (max-width: 512px) {
+  @media screen and (max-width: 540px) {
     main {
       flex-direction: column;
     }
@@ -437,159 +438,44 @@ footer {
     }
   }
 
-  @media screen and (max-width: 663px) {
-  
-    .forum, .post {
-      width: 85%;
-    }
-
-    .logo {
-        font-size: 16px;
-        color: #4263eb;
-        font-weight: bold;
-        margin-right: 10px;
-    }
-
-    .sidebar {
-        width: 30%;
-        background-color: #333;
-        margin-left: 0px;
-        margin-bottom: 100px;
-        padding: 10px;
-      }
-    .navbar-left, .navbar-center, .navbar-right {
-        display: none;
-    }
-
-    .navbar .hamburger {
-        display: block;
-        margin-right: 20px;
-    }
-
-    .navbar .logo-mobile {
-        display: block;
-        font-size: 20px;
-        color: #4263eb;
-        font-weight: bold;
-        margin-right: 10px;
-    }
-
+  @media screen and (max-width: 1024px) {
     .post-container {
         width: 95%;
         padding: 10px;
     }
-
-    .post-images {
-        flex-direction: column;
-    }
-
-    .post-image {
-        max-width: 90%;
-    }
-
-    .follow-btn {
-        padding: 8px 20px;
-        border-radius: 20px;
-        font-size: 12px;
-        font-weight: bold;
-    }
-
-    .user-info {
-        width: 100%;
-    }
-
-  }
-
-  @media screen and (max-width: 740px) {
-  
-    .forum, .post {
-      width: 85%;
-    }
-
-    .logo {
-        font-size: 16px;
-        color: #4263eb;
-        font-weight: bold;
-        margin-right: 10px;
-    }
-
-    .sidebar {
-        width: 30%;
-        background-color: #333;
-        margin-left: 0px;
-        margin-bottom: 100px;
-        padding: 10px;
-      }
-
-    .search-bar {
-        border-radius: 20px;
-        padding: 5px 5px;
-    }
-    
-    .search-bar input {
-        padding: 6px 30px 6px 6px;
-    }
-    
-    .icons .icon {
-        font-size: 20px;
-        margin-left: 15px;
-        cursor: pointer;
-    }
-    
-    .avatar-profil {
-        width: 35px;
-        height: 35px;
-        margin: 1px 10px 0px 10px;
-    }
-
-    .logo {
-        margin-right: 20px;
-    }
-
-    .menu a {
-        font-size: 12px;
-    }
-
-    
-
-    .post-container {
-        width: 95%;
-        padding: 10px;
-    }
-
-    .post-images {
-        flex-direction: column;
-    }
-
-    .post-image {
-        max-width: 90%;
-    }
-
-    .follow-btn {
-        padding: 8px 20px;
-        border-radius: 20px;
-        font-size: 12px;
-        font-weight: bold;
-    }
-
-    .user-info {
-        width: 100%;
-    }
-
-    .sidebar {
-        margin-bottom: auto;
-      }
 
     .topik-container {
         width: 100px;
         height: 80px;
     }
 
-    .post-options button {
-        padding: 4px 10px;
-        border-radius: 20px;
-        margin-bottom: 10px;
-      }
+    .search-bar input {
+        padding: 4px 50px 4px 4px;
+    }
 
+    .avatar-profil {
+        width: 35px;
+        height: 35px;
+        margin: 1px 5px 0px 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+        color: #4263eb;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .post-options button {
+        padding: 5px 10px;
+      }
   }
+
+  @media screen and (max-width: 1280px) {
+    .post-container {
+        width: 95%;
+        padding: 10px;
+    }
+  }
+
   
